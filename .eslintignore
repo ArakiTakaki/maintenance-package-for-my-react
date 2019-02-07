@@ -1,0 +1,10 @@
+node_modules/
+public/
+config/
+build/
+**/*.md
+**/*.json
+**/*.sass
+**/*.pug
+webpack.develop.js
+webpack.production.js

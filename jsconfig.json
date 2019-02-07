@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "paths": {
+      "~/*": [
+        "./src/js/*"
+      ],
+      "css/*": [
+        "./src/scss/*"
+      ]
+    }
+  },
+  "include": [
+    "src/js/**/*",
+    "node_modules"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
